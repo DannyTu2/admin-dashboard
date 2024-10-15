@@ -1,0 +1,29 @@
+.mainContainer {
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+
+}
+
+
+.sidebar {
+    display:grid;
+    grid-template-rows: 70px 100px 100px;
+}
+
+.firstSectionSidebar {
+    grid-row: 2 / 3;
+    display:grid; 
+    gap: 10px;
+}
+
+.secondSectionSidebar {
+    padding-top:100px;
+    grid-row: 3 / 4;
+    display:grid;
+    gap:10px;
+}
+
+.firstSectionHeader{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
