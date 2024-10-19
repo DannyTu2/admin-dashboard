@@ -22,13 +22,14 @@ html,body {
 }
 
 .searchIcon {
+    /* padding-top:10px; */
     height:20px;
     width:20px;
 }
 
 .faceIcon {
-    height:35px;
-    width:35px;
+    height:70px;
+    width:70px;
 }
 
 .alarmIcon {
@@ -79,10 +80,13 @@ html,body {
 
 .firstSectionHeaderRight {
     padding-right:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondSectionHeader {
-    padding-top: 50px;
+    padding-top: 30px;
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
@@ -113,7 +117,6 @@ html,body {
     grid-template-columns: 4fr 2fr;
     grid-template-rows: 1fr 6fr;
     grid-column: 2/4;
-    padding-top: 40px;
     padding-left: 20px;
     background-color:#cbd5e1; ;
     height:1000px;
@@ -123,6 +126,7 @@ html,body {
     grid-row: 1/2;
     display:flex;
     justify-content: space-between;
+    padding-top:20px;
     width:930px;
     font-weight: bold;
     font-size:20px;
@@ -137,7 +141,7 @@ html,body {
 }
 
 .individualAnnoucement {
-    height:130px;
+    height:100px;
     width:230px;
 
 }
@@ -202,23 +206,20 @@ html,body {
 
 .text{
     padding:10px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .trendingSection {
     display:grid;
     padding-top: 280px;
     width:230px;
-    /* outline: 1px dashed; */
     display:grid;
     gap:15px;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .projectTitle {
     padding-left:10px;
-    padding-top:10px;
+    padding-top:20px; 
     font-weight: bold;
 }
 
@@ -229,4 +230,8 @@ html,body {
     background-color: white;
     width:230px;
     height:70px;
+}
+
+.searchBar {
+    width:500px;
 }
