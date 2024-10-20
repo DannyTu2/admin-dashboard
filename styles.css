@@ -28,8 +28,10 @@ html,body {
 }
 
 .faceIcon {
-    height:70px;
-    width:70px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    padding-right:7px;
 }
 
 .alarmIcon {
@@ -72,7 +74,7 @@ html,body {
     grid-row: 1/2;
     grid-column: 2/3;
     padding-left: 40px;
-    height:150px;
+    height:190px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -88,9 +90,14 @@ html,body {
     align-items: center;
 }
 
+.flex {
+    display:flex;
+}
+
 .secondSectionHeader {
-    padding-top: 30px;
+    padding-top: 20px;
     display:grid;
+    justify-items: center;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
@@ -114,7 +121,8 @@ html,body {
 }
 
  .user {
-    grid-column: 1/2;
+    grid-column: 2/3;
+    /* padding-left:200px; */
 }
 
 .main {
@@ -247,12 +255,20 @@ html,body {
 }
 
 .trendingIndividual{
-    display:grid;
+    display:flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     width:230px;
     height:70px;
+}
+
+.trendingIndividual img {
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    padding-right:10px;
+
 }
 
 .trendingTitle {
